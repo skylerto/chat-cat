@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Audiowide);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+a {
+    color:#000;
+    text-decoration:none;
+}
+
+.cr-container {
+    position:absolute;
+    width:500px;
+    height: 501px;
+    border:1px solid;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin:auto;
+    background:rgba(0,0,0,0.1);
+    box-shadow:0px 0px 20px rgba(0,0,0,0.2);
+    border-radius:10px;
+    padding:10px;
+}
+
+
+.cr-title {
+    font-family: 'Audiowide', cursive;
+    border-bottom:1px solid;
+}
+
+.cr-userbox {
+    border:1px solid rgba(0,0,0,0.5);
+    position:relative;
+    height:50px;
+    margin-bottom:5px;
+   
+}
+
+.userPic {
+    position:absolute;
+}
+
+.userName {
+    position:absolute;
+    top: 13px;
+    padding:0px;
+    margin:0px;
+    left:60px;
+    font-family: 'Open Sans', sans-serif;;
+    
+}
+
+.cr-newroom {
+    border:1px solid rgba(0,0,0,0.5);
+    height:50px;
+    margin-bottom:5px;
+    
+}
+
+.cr-roomlist {
+    border:1px solid;
+    height:300px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    background: rgb(237, 237, 237);
+}
+
+.newRoom {
+    position:absolute;
+    padding:13px;
+    margin:0px;
+    width:350px;
+    font-size:20px;
+    border:0px
+}
+
+#create {
+    position:absolute;
+    padding:13px;
+    left:392px;
+    width:117px;
+    border:0px;
+    background:green;
+    color:#FFF;
+    height:50px;
+    cursor:pointer;
+}
+
+.cr-roomlist a {
+    color:#000;
+    text-decoration:none;
+}
+
+
+
+.roomlist {
+    list-style:none;
+    padding:0px;
+    margin:0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.roomlist li {
+    padding:15px;
+    border:1px solid rgba(0,0,0,0.1);
+    background:#FFF;
+}
+
+.roomlist li:hover {
+    background: rgb(225, 212, 193);
+}

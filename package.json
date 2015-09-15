@@ -1,0 +1,22 @@
+{
+  "name": "chat-cat",
+  "version": "1.0.0",
+  "description": "Chat application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Skyler Layne",
+  "license": "ISC",
+    "dependencies": {
+      "express": "4.2.0",
+      "hogan-express": "0.5.2",
+      "cookie-parser": "1.1.0",
+      "express-session": "1.2.0",
+      "connect-mongo": "0.4.1",
+      "mongoose": "3.8.10",
+      "passport": "0.2.0",
+      "passport-facebook": "1.0.3",
+      "socket.io": "0.9.17"
+    }
+}
