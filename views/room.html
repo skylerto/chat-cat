@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>ChatCAT</title>
+	<title>{{title + "|" + room_name}}</title>
 	<link rel="stylesheet" href="../css/room.css">
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="/socket.io/socket.io.js"></script>
 	<script>
+	// anon function in this ($) context
 	$(function(){
 		var host = '{{config.host}}';
 		var messages = io.connect(host + '/messages');

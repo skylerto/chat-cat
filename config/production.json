@@ -4,7 +4,7 @@
   "fb":{
     "appID":"541556462658043",
     "appSecret":"621692990f689a47a71e714544513d50",
-    "callbackURL":"http://localhost:3000/auth/facebook/callback"
+    "callbackURL":"http://skyschatcat.herokuapp.com/auth/facebook/callback"
   },
-  "host":""
+  "host":"http://skyschatcat.herokuapp.com"
 }
